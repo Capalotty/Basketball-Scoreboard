@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-image: url("shapelined-_JBKdviweXI-unsplash.jpg");
+}
+
+section{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+    height: 50vh;
+    background: #1B244A;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.box {
+    font-family: 'Verdana';
+    font-style: normal;
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.Home, .Guest, #home, #guest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-btn{
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+#guest, #home {
+    font-family: 'Cursed Timer ULiL';
+    color: red;
+    font-size: 25px;
+}
+
+#First1, #Second1, #Third1{
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 4px;
+    border: 2px solid white;
+    color: white;
+    height: 35px;
+    width: 45px;
+}
+
+
+
+
