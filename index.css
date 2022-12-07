@@ -71,7 +71,7 @@ section{
 }
 
 
-.Left, Right{
+.left, .right{
     justify-content: center;
     align-items: center;
     display: flex;
